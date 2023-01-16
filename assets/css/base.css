@@ -936,6 +936,9 @@ Features Style
 #features {
   padding-top: 130px;
 }
+.features .section-heading{
+  text-align: center;
+}
 
 .features .features-content {
   z-index: 2;
@@ -1748,6 +1751,9 @@ responsive
   .header-area .main-nav .logo h4 {
     font-size: 24px;
   }
+  .main-banner .left-content h2{
+    font-size: 45px;
+  }
   .header-area .main-nav .logo h4 img {
     max-width: 30px;
     margin-left: 5px;
@@ -1768,6 +1774,7 @@ responsive
     display: inline-block;
   }
   .our-portfolio .section-heading,
+  .our-
   .about-us .section-heading,
   .about-us .about-item,
   .about-us p,
@@ -1783,5 +1790,8 @@ responsive
   }
   form#contact {
     padding: 30px;
+  }
+  .our-services .container-fluid {
+    padding: 0px 50px;
   }
 }
