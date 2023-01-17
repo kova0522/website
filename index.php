@@ -1,0 +1,655 @@
+<?php include 'assets/form-to-email.php';?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <title>WebMangoo</title>
+
+    <!--  favicon    -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+</head>
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <h4 >WebMangoo<img src="assets/images/mango.png" alt=""></h4>
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#about">About Us</a></li>
+              <li class="scroll-to-section"><a href="#features">Our Process</a></li>
+              <li class="scroll-to-section"><a href="#services">Services</a></li>
+              <li class="scroll-to-section"><a href="#portfolio">Portfolio</a></li>
+              <li class="scroll-to-section"><div class="main-blue-button"><a href="#contact">Get Your Quote</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="row">
+                  <div class="col-lg-4 col-sm-4">
+                      <div class="info-stat">
+                      <h6>Agency Status:</h6>
+                      <h4>Ready to Work</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-4">
+                    <div class="info-stat">
+                      <h6>Price:</h6>
+                      <h4>Complexity based</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-4">
+                    <div class="info-stat">
+                      <h6>Schedules</h6>
+                      <h4>Free consultancy</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <h2>WEB Design &amp; Development Agency</h2>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="main-green-button scroll-to-section">
+                      <a href="#contact">Get Your Quote</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/banner-right-image.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+            <img src="assets/images/about-left-image.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+          <div class="section-heading">
+            <h6>About Us</h6>
+            <h2>Top <em>web design &amp; development</em> agency</h2>
+            <!-- <h2>Consult your website <span>with us</span></h2> -->
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-4">
+              <div class="about-item">
+                <h4>250+</h4>
+                <h6>projects finished</h6>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-4">
+              <div class="about-item">
+                <h4>100+</h4>
+                <h6>happy clients</h6>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-4">
+              <div class="about-item">
+                <h4>28+</h4>
+                <h6>awards</h6>
+              </div>
+            </div>
+          </div>
+          <p><a rel="nofollow" href="index.html" target="_parent">WebMangoo</a> is your digital partner, bringing multi-disciplinary thinking — from ideation to launch — to create + improve solutions that matter.</p>
+          <div class="main-green-button"><a href="#contact">Discover company</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="features" class="features section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <h6>The Process</h6>
+            <h2>Discover how our work process looks like</h2>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="features-content">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+                  <div class="first-number number">
+                    <h6>01</h6>
+                  </div>
+                  <div class="icon"></div>
+                  <h4>Reach Out</h4>
+                  <div class="line-dec"></div>
+                  <p>We get in touch with you and discuss your design aspirations and inspirations to understand and sync with them.</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                  <div class="second-number number">
+                    <h6>02</h6>
+                  </div>
+                  <div class="icon"></div>
+                  <h4>Design</h4>
+                  <div class="line-dec"></div>
+                  <p>We come up with one or two designs closely related to each other that reflect your vision and our research. Upon finalizing the design these templates go to our development ninjas.</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="features-item third-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                  <div class="third-number number">
+                    <h6>03</h6>
+                  </div>
+                  <div class="icon"></div>
+                  <h4>Development</h4>
+                  <div class="line-dec"></div>
+                  <p>By implementing latest and best coding standards, we will develop a responsive, fast and secure website.</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="features-item fourth-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                  <div class="fourth-number number">
+                    <h6>04</h6>
+                  </div>
+                  <div class="icon"></div>
+                  <h4>Finalise the result</h4>
+                  <div class="line-dec"></div>
+                  <p>This is where you get to see the result and give us your feedback. During this period, we will finalize the website based on your feedback.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--
+        <div class="col-lg-12">
+          <div class="skills-content">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                  <div class="progress" data-percentage="80">
+                    <span class="progress-left">
+                      <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                      <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">
+                      <div>
+                        80%<br>
+                        <span>Frontend</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                  <div class="progress" data-percentage="60">
+                    <span class="progress-left">
+                      <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                      <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">
+                      <div>
+                        60%<br>
+                        <span>Backend</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                  <div class="progress" data-percentage="90">
+                    <span class="progress-left">
+                      <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                      <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">
+                      <div>
+                        90%<br>
+                        <span>CMS</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="skill-item last-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
+                  <div class="progress" data-percentage="70">
+                    <span class="progress-left">
+                      <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                      <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">
+                      <div>
+                        70%<br>
+                        <span>Server</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div id="services" class="our-services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <h6>Our Services</h6>
+            <h2>Discover What We Do &amp; <span>Offer</span> To Our <em>Clients</em></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="icon">
+                  <img src="assets/images/service-icon-ui.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="right-content">
+                  <h4>UI/UX Design</h4>
+                  <p>We design user interfaces for mobile apps and web products that increase conversion, reduce cost of maintenance and build a consistent user experience.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="icon">
+                  <img src="assets/images/service-icon-dev.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="right-content">
+                  <h4>Web Development</h4>
+                  <p>Web solutions crafted around your brand’s purpose. Easy to navigate, yet impossible to ignore in a wide array of frameworks and technologies. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="icon">
+                  <img src="assets/images/service-icon-app.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="right-content">
+                  <h4>Mobile Development</h4>
+                  <p>Develop, design, and deploy highly scalable mobile apps that co-exist seamlessly with your web apps or ride solo as a stand-alone solution. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--
+        <div class="col-lg-4">
+          <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="icon">
+                  <img src="assets/images/service-icon-03.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="right-content">
+                  <h4>Optimizing Keywords</h4>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="icon">
+                  <img src="assets/images/service-icon-01.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="right-content">
+                  <h4>Page Optimizations</h4>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.8s">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="icon">
+                  <img src="assets/images/service-icon-02.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="right-content">
+                  <h4>Deep URL Analysis</h4>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        -->
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio" class="our-portfolio section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+            <h6>Our Portofolio</h6>
+            <h2>Discover Our Recent <em>Projects</em> And <span>Showcases</span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="loop owl-carousel">
+            <div class="item">
+              <div class="portfolio-item">
+                <div class="thumb">
+                  <img src="assets/images/portfolio-totm.jpg" alt="">
+                  <div class="hover-content">
+                    <div class="inner-content">
+                      <a><h4>ToTM Project</h4></a>
+                      <span>Web design and development</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item">
+                <div class="thumb">
+                  <img src="assets/images/portfolio-kitchen.jpg" alt="">
+                  <div class="hover-content">
+                    <div class="inner-content">
+                      <a><h4>Kitchen Project</h4></a>
+                      <span>Web design and development</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="portfolio-item">
+                <div class="thumb">
+                  <img src="assets/images/portfolio-titus.jpg" alt="">
+                  <div class="hover-content">
+                    <div class="inner-content">
+                      <a><h4>Titus Project</h4></a>
+                      <span>Consulting and web development</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item">
+                <div class="thumb">
+                  <img src="assets/images/portfolio-uc.jpg" alt="">
+                  <div class="hover-content">
+                    <div class="inner-content">
+                      <a"><h4>United City Project</h4></a>
+                      <span>Web development</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="portfolio-item">
+                <div class="thumb">
+                  <img src="assets/images/portfolio-horse.jpg" alt="">
+                  <div class="hover-content">
+                    <div class="inner-content">
+                      <a><h4>TheHorse Project</h4></a>
+                      <span>Web development</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item">
+                <div class="thumb">
+                  <img src="assets/images/portfolio-moby.jpg" alt="">
+                  <div class="hover-content">
+                    <div class="inner-content">
+                      <a><h4>DickMoby Project</h4></a>
+                      <span>Web development</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="portfolio-item">
+                <div class="thumb">
+                  <img src="assets/images/portfolio-washing.jpg" alt="">
+                  <div class="hover-content">
+                    <div class="inner-content">
+                      <a><h4>Laundry Project</h4></a>
+                      <span>App desing and development</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item">
+                <div class="thumb">
+                  <img src="assets/images/portfolio-speclopedia.jpg" alt="">
+                  <div class="hover-content">
+                    <div class="inner-content">
+                      <a><h4>Speclopedia Project</h4></a>
+                      <span>App desing and development</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="contact-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+          <form id="contact" action="" method="post">
+            <div class="row">
+              <div class="col-lg-6 offset-lg-3">
+                <div class="section-heading">
+                  <h6>Contact Us</h6>
+                  <h2>Fill Out The Form Below To <span>Get</span> In <em>Touch</em> With Us</h2>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <fieldset>
+                      <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-6">
+                    <fieldset>
+                      <input type="surname" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-6">
+                    <fieldset>
+                      <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-6">
+                    <fieldset>
+                      <input type="subject" name="subject" id="subject" placeholder="Subject" autocomplete="on">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>  
+                    </fieldset>
+                  </div>
+                  <div>
+                    <p class="success"> <?php echo $success;  ?></p>
+                    <p class="failed"> <?php echo $failed;  ?></p>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" name="submit" id="form-submit" class="main-button " data-submit="...Sending">Send Message Now</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="contact-info">
+                  <ul>
+                    <li>
+                      <div class="icon">
+                        <img src="assets/images/contact-icon-01.png" alt="email icon">
+                      </div class="">
+                      <a  style="vertical-align: middle;" href="#">info@webmangoo.com</a>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <img src="assets/images/contact-icon-02.png" alt="phone">
+                      </div>
+                      <a href="#">+3620-257-3955</a>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <img src="assets/images/contact-icon-03.png" alt="location">
+                      </div>
+                      <a href="#">26th Street, Digital Villa</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2023 webMangoo Co., Ltd. All Rights Reserved. 
+          
+          <br>Web Designed by <a rel="nofollow" href="#">webMangoo Co., Ltd.</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <<script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+</body>
+</html>
